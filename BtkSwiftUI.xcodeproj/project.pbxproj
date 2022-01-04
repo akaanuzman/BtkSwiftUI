@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00222F7A2785109200FBBD08 /* OtherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00222F792785109200FBBD08 /* OtherPage.swift */; };
 		002337292784F6FC00499CB3 /* BtkSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002337282784F6FC00499CB3 /* BtkSwiftUIApp.swift */; };
 		0023372B2784F6FC00499CB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023372A2784F6FC00499CB3 /* ContentView.swift */; };
 		0023372D2784F6FD00499CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0023372C2784F6FD00499CB3 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00222F792785109200FBBD08 /* OtherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPage.swift; sourceTree = "<group>"; };
 		002337252784F6FC00499CB3 /* BtkSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BtkSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002337282784F6FC00499CB3 /* BtkSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtkSwiftUIApp.swift; sourceTree = "<group>"; };
 		0023372A2784F6FC00499CB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				002337312784F6FD00499CB3 /* Persistence.swift */,
 				002337332784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld */,
 				0023372E2784F6FD00499CB3 /* Preview Content */,
+				00222F792785109200FBBD08 /* OtherPage.swift */,
 			);
 			path = BtkSwiftUI;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				002337322784F6FD00499CB3 /* Persistence.swift in Sources */,
 				0023372B2784F6FC00499CB3 /* ContentView.swift in Sources */,
 				002337292784F6FC00499CB3 /* BtkSwiftUIApp.swift in Sources */,
+				00222F7A2785109200FBBD08 /* OtherPage.swift in Sources */,
 				002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */,
 				0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */,
 			);

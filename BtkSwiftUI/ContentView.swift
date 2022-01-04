@@ -10,10 +10,19 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            SpecialCircleImage(url: "user_icon1", borderColor: Color.green)
-            SpecialCircleImage(url: "user_icon2", borderColor: Color.black)
-           
+        NavigationView {
+            VStack {
+                SpecialCircleImage(url: "user_icon1", borderColor: Color.green)
+                SpecialCircleImage(url: "user_icon2", borderColor: Color.black)
+                Button(action: {
+                    print("click")
+                }, label: { Text("Click me !") }
+                )
+
+                NavigationLink(destination: OtherPage(), label: {
+                    Text("Go to next page")
+                }).navigationTitle(Text("First Title"))
+            }
         }
     }
 }
