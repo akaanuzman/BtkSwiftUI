@@ -15,6 +15,7 @@
 		002337322784F6FD00499CB3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002337312784F6FD00499CB3 /* Persistence.swift */; };
 		002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 002337332784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld */; };
 		0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */; };
+		00FA169D27863F5500DD492A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA169C27863F5500DD492A /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		002337312784F6FD00499CB3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		002337342784F6FD00499CB3 /* BtkSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BtkSwiftUI.xcdatamodel; sourceTree = "<group>"; };
 		0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialCircleImage.swift; sourceTree = "<group>"; };
+		00FA169C27863F5500DD492A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				002337332784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld */,
 				0023372E2784F6FD00499CB3 /* Preview Content */,
 				00222F792785109200FBBD08 /* OtherPage.swift */,
+				00FA169C27863F5500DD492A /* ListView.swift */,
 			);
 			path = BtkSwiftUI;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				002337322784F6FD00499CB3 /* Persistence.swift in Sources */,
 				0023372B2784F6FC00499CB3 /* ContentView.swift in Sources */,
 				002337292784F6FC00499CB3 /* BtkSwiftUIApp.swift in Sources */,
+				00FA169D27863F5500DD492A /* ListView.swift in Sources */,
 				00222F7A2785109200FBBD08 /* OtherPage.swift in Sources */,
 				002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */,
 				0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */,
