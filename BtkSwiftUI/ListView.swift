@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct ListView: View {
-    let carList : [String] = ["BMW","Audi","Mercedes","Toyota","Nissan"]
+
     var body: some View {
-        List(carList,id: \.self){
-            car in Text(car)
+        List{
+            ForEach(CarModel.cars){
+                car in Section(content: {
+                    HStack{
+                        Text("\(car.model) \(car.hp)hp")
+                            .font(.headline)
+                            .fontWeight(.bold)
+                        Text("\(car.price)$")
+                    }
+                }, header: {
+                    Text(car.brand)
+                        .font(.title3)
+                })
+            }
         }
+        
     }
 }
 

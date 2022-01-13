@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000BCF5D278FA006007942AB /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000BCF5C278FA006007942AB /* CarModel.swift */; };
 		00222F7A2785109200FBBD08 /* OtherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00222F792785109200FBBD08 /* OtherPage.swift */; };
 		002337292784F6FC00499CB3 /* BtkSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002337282784F6FC00499CB3 /* BtkSwiftUIApp.swift */; };
 		0023372B2784F6FC00499CB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023372A2784F6FC00499CB3 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000BCF5C278FA006007942AB /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		00222F792785109200FBBD08 /* OtherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPage.swift; sourceTree = "<group>"; };
 		002337252784F6FC00499CB3 /* BtkSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BtkSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002337282784F6FC00499CB3 /* BtkSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtkSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000BCF5B278F9FF4007942AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				000BCF5C278FA006007942AB /* CarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0023371C2784F6FC00499CB3 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		002337272784F6FC00499CB3 /* BtkSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				000BCF5B278F9FF4007942AB /* Model */,
 				0023373D2784FCF400499CB3 /* Components */,
 				002337282784F6FC00499CB3 /* BtkSwiftUIApp.swift */,
 				0023372A2784F6FC00499CB3 /* ContentView.swift */,
@@ -160,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000BCF5D278FA006007942AB /* CarModel.swift in Sources */,
 				002337322784F6FD00499CB3 /* Persistence.swift in Sources */,
 				0023372B2784F6FC00499CB3 /* ContentView.swift in Sources */,
 				002337292784F6FC00499CB3 /* BtkSwiftUIApp.swift in Sources */,
