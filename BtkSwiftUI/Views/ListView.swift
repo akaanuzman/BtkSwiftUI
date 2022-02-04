@@ -1,10 +1,3 @@
-//
-//  ListView.swift
-//  BtkSwiftUI
-//
-//  Created by Ahmet Kaan UZMAN on 6.01.2022.
-//
-
 import SwiftUI
 
 struct ListView: View {

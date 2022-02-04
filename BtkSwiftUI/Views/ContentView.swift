@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  BtkSwiftUI
-//
-//  Created by Ahmet Kaan UZMAN on 5.01.2022.
-//
-
 import SwiftUI
 import CoreData
 
@@ -19,7 +12,7 @@ struct ContentView: View {
                 }, label: { Text("Click me !") }
                 )
 
-                NavigationLink(destination: OtherPage(), label: {
+                NavigationLink(destination: SecondaryPageView(), label: {
                     Text("Go to next page")
                 }).navigationTitle(Text("First Title"))
             }

@@ -1,16 +1,9 @@
-//
-//  StatePropertyView.swift
-//  BtkSwiftUI
-//
-//  Created by Ahmet Kaan UZMAN on 4.02.2022.
-//
-
 import SwiftUI
 
 struct StatePropertyView: View {
-    @State var myString : String = "My Text"
-    @State var counter : Int = 1
-    var textFieldWidth : Double = UIScreen.main.bounds.width * 0.8
+    @State var myString: String = "My Text"
+    @State var counter: Int = 1
+    var textFieldWidth: Double = UIScreen.main.bounds.width * 0.8
     var body: some View {
         VStack {
             Text(myString).font(.largeTitle).bold().padding()
@@ -23,7 +16,7 @@ struct StatePropertyView: View {
             }
             TextField("Enter a text.", text: $myString).frame(width: textFieldWidth, height: 70, alignment: .center).foregroundColor(Color.gray).multilineTextAlignment(.center)
         }
-       
+
 
     }
 }

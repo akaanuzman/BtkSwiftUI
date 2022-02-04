@@ -1,10 +1,3 @@
-//
-//  BtkSwiftUIApp.swift
-//  BtkSwiftUI
-//
-//  Created by Ahmet Kaan UZMAN on 5.01.2022.
-//
-
 import SwiftUI
 
 @main
