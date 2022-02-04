@@ -19,6 +19,9 @@
 		008FB1FF27AD64B50061E5AF /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FB1FE27AD64B50061E5AF /* SheetView.swift */; };
 		00C3386F27AD67FB0010A2E7 /* SecondaryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3386E27AD67FB0010A2E7 /* SecondaryPageView.swift */; };
 		00C3387127AD69890010A2E7 /* BlueLargeTitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387027AD69890010A2E7 /* BlueLargeTitleText.swift */; };
+		00C3387327AD6AF80010A2E7 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387227AD6AF80010A2E7 /* TodoModel.swift */; };
+		00C3387527AD713E0010A2E7 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387427AD713E0010A2E7 /* TodoView.swift */; };
+		00C3387827AD74000010A2E7 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387727AD74000010A2E7 /* TodoDetailView.swift */; };
 		00FA169D27863F5500DD492A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA169C27863F5500DD492A /* ListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,9 @@
 		008FB1FE27AD64B50061E5AF /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		00C3386E27AD67FB0010A2E7 /* SecondaryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryPageView.swift; sourceTree = "<group>"; };
 		00C3387027AD69890010A2E7 /* BlueLargeTitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueLargeTitleText.swift; sourceTree = "<group>"; };
+		00C3387227AD6AF80010A2E7 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		00C3387427AD713E0010A2E7 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		00C3387727AD74000010A2E7 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 		00FA169C27863F5500DD492A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				000BCF5C278FA006007942AB /* CarModel.swift */,
+				00C3387227AD6AF80010A2E7 /* TodoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +116,7 @@
 		008FB1FB27AD533A0061E5AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00C3387627AD73F00010A2E7 /* Todo */,
 				0023372A2784F6FC00499CB3 /* ContentView.swift */,
 				00FA169C27863F5500DD492A /* ListView.swift */,
 				008FB1FC27AD53840061E5AF /* StatePropertyView.swift */,
@@ -116,6 +124,15 @@
 				00C3386E27AD67FB0010A2E7 /* SecondaryPageView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		00C3387627AD73F00010A2E7 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				00C3387427AD713E0010A2E7 /* TodoView.swift */,
+				00C3387727AD74000010A2E7 /* TodoDetailView.swift */,
+			);
+			path = Todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +207,7 @@
 			files = (
 				000BCF5D278FA006007942AB /* CarModel.swift in Sources */,
 				002337322784F6FD00499CB3 /* Persistence.swift in Sources */,
+				00C3387527AD713E0010A2E7 /* TodoView.swift in Sources */,
 				008FB1FF27AD64B50061E5AF /* SheetView.swift in Sources */,
 				0023372B2784F6FC00499CB3 /* ContentView.swift in Sources */,
 				00C3386F27AD67FB0010A2E7 /* SecondaryPageView.swift in Sources */,
@@ -197,6 +215,8 @@
 				00FA169D27863F5500DD492A /* ListView.swift in Sources */,
 				008FB1FD27AD53840061E5AF /* StatePropertyView.swift in Sources */,
 				002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */,
+				00C3387327AD6AF80010A2E7 /* TodoModel.swift in Sources */,
+				00C3387827AD74000010A2E7 /* TodoDetailView.swift in Sources */,
 				0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */,
 				00C3387127AD69890010A2E7 /* BlueLargeTitleText.swift in Sources */,
 			);

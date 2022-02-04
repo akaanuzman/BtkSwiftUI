@@ -1,12 +1,4 @@
-//
-//  CarModel.swift
-//  BtkSwiftUI
-//
-//  Created by Ahmet Kaan UZMAN on 13.01.2022.
-//
-
 import Foundation
-
 
 struct CarModel: Identifiable {
     var id: UUID = UUID()
