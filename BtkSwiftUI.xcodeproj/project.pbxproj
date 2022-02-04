@@ -16,6 +16,7 @@
 		002337322784F6FD00499CB3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002337312784F6FD00499CB3 /* Persistence.swift */; };
 		002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 002337332784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld */; };
 		0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */; };
+		008FB1FD27AD53840061E5AF /* StatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FB1FC27AD53840061E5AF /* StatePropertyView.swift */; };
 		00FA169D27863F5500DD492A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA169C27863F5500DD492A /* ListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		002337312784F6FD00499CB3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		002337342784F6FD00499CB3 /* BtkSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BtkSwiftUI.xcdatamodel; sourceTree = "<group>"; };
 		0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialCircleImage.swift; sourceTree = "<group>"; };
+		008FB1FC27AD53840061E5AF /* StatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyView.swift; sourceTree = "<group>"; };
 		00FA169C27863F5500DD492A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,16 +73,15 @@
 		002337272784F6FC00499CB3 /* BtkSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				008FB1FB27AD533A0061E5AF /* Views */,
 				000BCF5B278F9FF4007942AB /* Model */,
 				0023373D2784FCF400499CB3 /* Components */,
 				002337282784F6FC00499CB3 /* BtkSwiftUIApp.swift */,
-				0023372A2784F6FC00499CB3 /* ContentView.swift */,
 				0023372C2784F6FD00499CB3 /* Assets.xcassets */,
 				002337312784F6FD00499CB3 /* Persistence.swift */,
 				002337332784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld */,
 				0023372E2784F6FD00499CB3 /* Preview Content */,
 				00222F792785109200FBBD08 /* OtherPage.swift */,
-				00FA169C27863F5500DD492A /* ListView.swift */,
 			);
 			path = BtkSwiftUI;
 			sourceTree = "<group>";
@@ -99,6 +100,16 @@
 				0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		008FB1FB27AD533A0061E5AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0023372A2784F6FC00499CB3 /* ContentView.swift */,
+				00FA169C27863F5500DD492A /* ListView.swift */,
+				008FB1FC27AD53840061E5AF /* StatePropertyView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				0023372B2784F6FC00499CB3 /* ContentView.swift in Sources */,
 				002337292784F6FC00499CB3 /* BtkSwiftUIApp.swift in Sources */,
 				00FA169D27863F5500DD492A /* ListView.swift in Sources */,
+				008FB1FD27AD53840061E5AF /* StatePropertyView.swift in Sources */,
 				00222F7A2785109200FBBD08 /* OtherPage.swift in Sources */,
 				002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */,
 				0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */,

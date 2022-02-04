@@ -10,10 +10,10 @@ import SwiftUI
 struct ListView: View {
 
     var body: some View {
-        List{
-            ForEach(CarModel.cars){
+        List {
+            ForEach(CarModel.cars) {
                 car in Section(content: {
-                    HStack{
+                    HStack {
                         Text("\(car.model) \(car.hp)hp")
                             .font(.headline)
                             .fontWeight(.bold)
@@ -25,7 +25,7 @@ struct ListView: View {
                 })
             }
         }
-        
+
     }
 }
 

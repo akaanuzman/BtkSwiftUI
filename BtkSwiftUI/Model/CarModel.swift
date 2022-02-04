@@ -24,5 +24,5 @@ extension CarModel {
         CarModel(brand: "BMW", model: "520d", hp: 225, price: 600000)
     ]
 
-    static let fakeCard: CarModel = CarModel(brand: "Fake", model: "Car", hp: 10, price: 1)
+    static let fakeCar: CarModel = CarModel(brand: "Fake", model: "Car", hp: 10, price: 1)
 }
