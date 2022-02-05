@@ -15,6 +15,7 @@
 		002337322784F6FD00499CB3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002337312784F6FD00499CB3 /* Persistence.swift */; };
 		002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 002337332784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld */; };
 		0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */; };
+		0076231927AE789D009B2B0F /* DoneNotDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0076231827AE789C009B2B0F /* DoneNotDoneButton.swift */; };
 		008FB1FD27AD53840061E5AF /* StatePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FB1FC27AD53840061E5AF /* StatePropertyView.swift */; };
 		008FB1FF27AD64B50061E5AF /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008FB1FE27AD64B50061E5AF /* SheetView.swift */; };
 		00C3386F27AD67FB0010A2E7 /* SecondaryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3386E27AD67FB0010A2E7 /* SecondaryPageView.swift */; };
@@ -35,6 +36,7 @@
 		002337312784F6FD00499CB3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		002337342784F6FD00499CB3 /* BtkSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BtkSwiftUI.xcdatamodel; sourceTree = "<group>"; };
 		0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialCircleImage.swift; sourceTree = "<group>"; };
+		0076231827AE789C009B2B0F /* DoneNotDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneNotDoneButton.swift; sourceTree = "<group>"; };
 		008FB1FC27AD53840061E5AF /* StatePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyView.swift; sourceTree = "<group>"; };
 		008FB1FE27AD64B50061E5AF /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		00C3386E27AD67FB0010A2E7 /* SecondaryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryPageView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				0023373B2784FBCD00499CB3 /* SpecialCircleImage.swift */,
 				00C3387027AD69890010A2E7 /* BlueLargeTitleText.swift */,
+				0076231827AE789C009B2B0F /* DoneNotDoneButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				00FA169D27863F5500DD492A /* ListView.swift in Sources */,
 				008FB1FD27AD53840061E5AF /* StatePropertyView.swift in Sources */,
 				002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */,
+				0076231927AE789D009B2B0F /* DoneNotDoneButton.swift in Sources */,
 				00C3387327AD6AF80010A2E7 /* TodoModel.swift in Sources */,
 				00C3387827AD74000010A2E7 /* TodoDetailView.swift in Sources */,
 				0023373C2784FBCD00499CB3 /* SpecialCircleImage.swift in Sources */,

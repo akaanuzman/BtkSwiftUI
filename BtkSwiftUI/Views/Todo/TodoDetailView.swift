@@ -11,12 +11,7 @@ struct TodoDetailView: View {
                 .foregroundColor(isDone ? .green : .red).padding()
             Text(subtitle).font(.title3)
                 .padding()
-            Button {
-                isDone.toggle()
-            } label: {
-                Text("Done / Not Done")
-            }.padding()
-
+            DoneNotDoneButton(isDone: $isDone)
         }
     }
 }
