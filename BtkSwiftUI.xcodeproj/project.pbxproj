@@ -30,6 +30,7 @@
 		00C3387527AD713E0010A2E7 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387427AD713E0010A2E7 /* TodoView.swift */; };
 		00C3387827AD74000010A2E7 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387727AD74000010A2E7 /* TodoDetailView.swift */; };
 		00FA169D27863F5500DD492A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA169C27863F5500DD492A /* ListView.swift */; };
+		F1437B4627F0B073004D8C4E /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1437B4527F0B073004D8C4E /* CityListView.swift */; };
 		F1CF9F5427EFA42E00E840AB /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF9F5327EFA42E00E840AB /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		00C3387427AD713E0010A2E7 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		00C3387727AD74000010A2E7 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 		00FA169C27863F5500DD492A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F1437B4527F0B073004D8C4E /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
 		F1CF9F5327EFA42E00E840AB /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				008FB1FE27AD64B50061E5AF /* SheetView.swift */,
 				00C3386E27AD67FB0010A2E7 /* SecondaryPageView.swift */,
 				00B5FEC027C577EE00AF82E2 /* PreviewView.swift */,
+				F1437B4527F0B073004D8C4E /* CityListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				0022964727B2AD9A006DC960 /* HeroView.swift in Sources */,
 				0022964927B2AF28006DC960 /* HeroListItem.swift in Sources */,
 				0011FAD627B2A5520003F567 /* HeroDetailView.swift in Sources */,
+				F1437B4627F0B073004D8C4E /* CityListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
