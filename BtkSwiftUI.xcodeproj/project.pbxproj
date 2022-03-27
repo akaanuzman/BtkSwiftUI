@@ -30,6 +30,7 @@
 		00C3387527AD713E0010A2E7 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387427AD713E0010A2E7 /* TodoView.swift */; };
 		00C3387827AD74000010A2E7 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387727AD74000010A2E7 /* TodoDetailView.swift */; };
 		00FA169D27863F5500DD492A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA169C27863F5500DD492A /* ListView.swift */; };
+		F1CF9F5427EFA42E00E840AB /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF9F5327EFA42E00E840AB /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		00C3387427AD713E0010A2E7 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		00C3387727AD74000010A2E7 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 		00FA169C27863F5500DD492A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F1CF9F5327EFA42E00E840AB /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				000BCF5C278FA006007942AB /* CarModel.swift */,
 				00C3387227AD6AF80010A2E7 /* TodoModel.swift */,
 				0076231A27AE7BE1009B2B0F /* HeroModel.swift */,
+				F1CF9F5327EFA42E00E840AB /* CityModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				00FA169D27863F5500DD492A /* ListView.swift in Sources */,
 				008FB1FD27AD53840061E5AF /* StatePropertyView.swift in Sources */,
 				0076231B27AE7BE1009B2B0F /* HeroModel.swift in Sources */,
+				F1CF9F5427EFA42E00E840AB /* CityModel.swift in Sources */,
 				002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */,
 				0076231927AE789D009B2B0F /* DoneNotDoneButton.swift in Sources */,
 				00C3387327AD6AF80010A2E7 /* TodoModel.swift in Sources */,
