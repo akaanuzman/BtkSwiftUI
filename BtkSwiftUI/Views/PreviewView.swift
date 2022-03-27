@@ -18,9 +18,15 @@ struct PreviewView: View {
 struct PreviewView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            PreviewView(city: CityModel.cities[0]).previewLayout(.sizeThatFits)
-            PreviewView(city: CityModel.cities[1]).previewLayout(.sizeThatFits)
-            PreviewView(city: CityModel.cities[2]).previewLayout(.sizeThatFits)
+            PreviewView(city: CityModel.cities[0])
+                .previewLayout(.sizeThatFits)
+                .environment(\.dynamicTypeSize,.xxxLarge)
+            PreviewView(city: CityModel.cities[1])
+                .previewLayout(.sizeThatFits)
+                .environment(\.dynamicTypeSize,.medium)
+            PreviewView(city: CityModel.cities[2])
+                .previewLayout(.sizeThatFits)
+                .environment(\.dynamicTypeSize,.xSmall)
         }
     }
 }
