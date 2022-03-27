@@ -31,6 +31,7 @@
 		00C3387827AD74000010A2E7 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3387727AD74000010A2E7 /* TodoDetailView.swift */; };
 		00FA169D27863F5500DD492A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA169C27863F5500DD492A /* ListView.swift */; };
 		F1437B4627F0B073004D8C4E /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1437B4527F0B073004D8C4E /* CityListView.swift */; };
+		F151B06927F0F376000400F8 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151B06827F0F376000400F8 /* MovieModel.swift */; };
 		F1CF9F5427EFA42E00E840AB /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF9F5327EFA42E00E840AB /* CityModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		00C3387727AD74000010A2E7 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 		00FA169C27863F5500DD492A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F1437B4527F0B073004D8C4E /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
+		F151B06827F0F376000400F8 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		F1CF9F5327EFA42E00E840AB /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		002337272784F6FC00499CB3 /* BtkSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F151B06427F0F192000400F8 /* MovieApp */,
 				008FB1FB27AD533A0061E5AF /* Views */,
 				000BCF5B278F9FF4007942AB /* Model */,
 				0023373D2784FCF400499CB3 /* Components */,
@@ -168,6 +171,38 @@
 				00C3387727AD74000010A2E7 /* TodoDetailView.swift */,
 			);
 			path = Todo;
+			sourceTree = "<group>";
+		};
+		F151B06427F0F192000400F8 /* MovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				F151B06727F0F361000400F8 /* ViewModel */,
+				F151B06627F0F35A000400F8 /* Model */,
+				F151B06527F0F355000400F8 /* View */,
+			);
+			path = MovieApp;
+			sourceTree = "<group>";
+		};
+		F151B06527F0F355000400F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F151B06627F0F35A000400F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F151B06827F0F376000400F8 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F151B06727F0F361000400F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +287,7 @@
 				00FA169D27863F5500DD492A /* ListView.swift in Sources */,
 				008FB1FD27AD53840061E5AF /* StatePropertyView.swift in Sources */,
 				0076231B27AE7BE1009B2B0F /* HeroModel.swift in Sources */,
+				F151B06927F0F376000400F8 /* MovieModel.swift in Sources */,
 				F1CF9F5427EFA42E00E840AB /* CityModel.swift in Sources */,
 				002337352784F6FD00499CB3 /* BtkSwiftUI.xcdatamodeld in Sources */,
 				0076231927AE789D009B2B0F /* DoneNotDoneButton.swift in Sources */,
